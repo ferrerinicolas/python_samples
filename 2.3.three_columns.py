@@ -8,19 +8,28 @@ Hint: Send Tracy from her home in the center to her starting position to draw yo
 """
 import turtle
 import turtledemo
-from turtle import forward, left, penup, pendown, backward
+from turtle import *
 
-penup()
-backward(200)
+def set_position():
+    penup()
+    setposition(0,-100)
 
-for i in range (3):
-    forward(100)
-    left(90)
-    penup()
-    forward(200)
-    left(180)
-    pendown()
-    forward(400)
-    penup()
-    backward(200)
-    left(90)
+set_position()
+
+speed(10)
+
+def make_circle(x=3):
+    
+    for i in range(x):
+        pendown()
+        circle(10)
+        penup()
+        forward(20)
+        left(10)
+
+make_circle(36)
+
+setposition(0,0)
+
+
+
