@@ -6,8 +6,7 @@ Your entire code does not have to be a part of your loop
 Pay careful attention to your indentation!
 Hint: Send Tracy from her home in the center to her starting position to draw your lines and then write your loop to draw all three!
 """
-import turtle
-import turtledemo
+
 from turtle import *
 
 def set_position():
