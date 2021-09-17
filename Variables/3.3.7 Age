@@ -1,0 +1,7 @@
+
+age = input ("Enter your age: ")
+age = int (age)
+age = age + 1
+
+print ("You will need this many candles for your birthday cake:")
+print (age)
