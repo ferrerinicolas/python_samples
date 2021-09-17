@@ -19,7 +19,7 @@ print("Hi there!")
 
 """In this exercise, you will write a program that displays your name written vertically.
 
-For example, if your name was Maria, the output should be:""""
+For example, if your name was Maria, the output should be:"""
 
 print("N")
 print("i")
