@@ -1,22 +1,29 @@
-# This program simulates a single transaction -
-# either a deposit or a withdrawal - at a bank.
+x = True
+y = False
 
-account_balance = 1000
+print("x: " + str(x))
+print("y: " + str(y))
 
-user_operation = str( input ("Deposit or Withdrawal: "))
+print("x and y")
+print(x and y)
 
-if user_operation == "deposit":
-    add_balance = int (input("How much do you want to deposit?: "))
-    account_balance = account_balance + add_balance
-    print ("Your new balance: " + str(account_balance))
-    
-elif user_operation s== "withdrawal":
-    rest_balance = int (input("How much do you want to withdrawal?: "))
-    account_balance = account_balance - rest_balance
-    if account_balance < 0:
-        print("You cannot have a negative balance!")
-    print ("Your new balance: " + str(account_balance))
+print("x or y")
+print(x or y)
 
-else:
-    print("Invalid transaction")
-    
+print("x and not y")
+print(x and not y)
+
+# This means "It is not the case
+# that x is true, and it is the
+# case that y is true."
+print("not x and y")
+print(not x and y)
+
+# Notice that you can use parentheses
+# to force (x and y) to be evaluated
+# before the "not" keyword is applied.
+#
+# This means "It is not the case that
+# both x and y are true."
+print("not (x and y)")
+print(not (x and y))
