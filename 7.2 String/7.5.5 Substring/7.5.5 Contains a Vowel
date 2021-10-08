@@ -1,0 +1,3 @@
+# use `in` to determine if `word` contains any vowels!
+def contains_vowel(word):
+    return True
